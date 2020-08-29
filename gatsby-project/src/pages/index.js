@@ -5,8 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import MyHeader from '../components/my-header'
+
 const IndexPage = () => (
   <Layout>
+    <MyHeader />
     <SEO title="Home" />
     
     <div style={{ width: '100%', marginBottom: `1.45rem` }}>
