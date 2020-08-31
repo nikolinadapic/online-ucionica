@@ -5,8 +5,6 @@ import MyLayout from "../components/my-layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import MyHeader from '../components/my-header'
-
 const IndexPage = () => (
   <MyLayout>
     <SEO title="Home" />
