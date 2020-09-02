@@ -1,7 +1,8 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import MyLayout from '../components/my-layout'
+import headerStyles from '../components/header.module.scss'
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -13,14 +14,16 @@ const BlogPage = () => {
                     title
                     date
                 }
-                html
-                excerpt
+                fields {
+                    slug
+                }
                 }
             }
             }
         }
     `)
 
+    //TODO stil linkova!
     return(
         <MyLayout>
             <h1>Blog</h1>
@@ -28,8 +31,10 @@ const BlogPage = () => {
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
                         <li>
-                            <h2>{edge.node.frontmatter.title}</h2>
-                            <p>{edge.node.frontmatter.date}</p>
+                            <Link className={headerStyles.navItem} to={`/blog/${edge.node.fields.slug}`}>
+                                <h2>{edge.node.frontmatter.title}</h2>
+                                <p>{edge.node.frontmatter.date}</p>
+                            </Link>
                         </li>
                     )
                 })}
