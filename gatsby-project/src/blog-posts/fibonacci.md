@@ -18,6 +18,8 @@ The spiral shapes of sunflowers and other patterns in nature follow a Fibonacci 
 
 Fibonacci Day is November 23rd, as it has the digits "1, 1, 2, 3" which is part of the sequence. So next Nov 23 let everyone know!
 
+![Image](../images/fibonacci.jpg)
+
 ## Topics Covered
 
 1. Fibonacci Sequence

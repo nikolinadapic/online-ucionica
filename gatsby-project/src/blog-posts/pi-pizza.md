@@ -7,6 +7,8 @@ You multiply Pi multiplied by the radius squared to find the area and multiply a
 
 And strangely, if you enter Pi to two decimal places (3.14) in the your calculator and look at it in the mirror, you'll see it spells 'pie'.
 
+![Image](../images/pi.jpg)
+
 ## Covered Topics
 
 1. Pi
