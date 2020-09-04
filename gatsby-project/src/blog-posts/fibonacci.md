@@ -1,7 +1,9 @@
 ---
 title: "Fibonacci sequence Fun Facts"
-date: "2020-08-31"
+date: "August 31st, 2020"
 ---
+
+![Image](../images/fibonacci.jpg)
 
 The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
@@ -17,8 +19,6 @@ In fact, the bigger the pair of Fibonacci Numbers, the closer the approximation.
 The spiral shapes of sunflowers and other patterns in nature follow a Fibonacci sequence.
 
 Fibonacci Day is November 23rd, as it has the digits "1, 1, 2, 3" which is part of the sequence. So next Nov 23 let everyone know!
-
-![Image](../images/fibonacci.jpg)
 
 ## Topics Covered
 
