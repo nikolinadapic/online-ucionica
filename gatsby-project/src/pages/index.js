@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Head from '../components/head'
 import MyLayout from "../components/my-layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <MyLayout>
-    <SEO title="Home" />
+    <Head title="Home" />
+    
     
     <div style={{ width: '100%', marginBottom: `1.45rem` }}>
       <Image />
