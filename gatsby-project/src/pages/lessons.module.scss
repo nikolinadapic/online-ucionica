@@ -5,16 +5,22 @@
 }
 
 .content {
-    background: #f4f4f4;
+    background: #f6f2ff;
     color: #000000;
     display: block;
     padding: 1rem;
     margin-bottom: 10px;
     height: 3rem;
+    border-radius: 1rem;
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
 }
 
 .content:hover {
-    background: #e4e4e4;
+    background: #e9e3fa;
 }
 
 .text {

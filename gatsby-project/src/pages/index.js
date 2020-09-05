@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div style={{ width: '100%', marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <p>To see more content, please log in!</p>
+    <p>Have an account? Log in below!</p>
     <Link className={loginStyles.loginButton} to="/login">Login</Link>
   </MyLayout>
 )

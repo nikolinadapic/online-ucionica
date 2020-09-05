@@ -3,7 +3,7 @@
 }
 
 .title {
-    color: #000000;
+    color: #7063ba;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -15,16 +15,21 @@
 }
 
 .nav-item {
-    color: #999999;
+    color: #7063ba;
     font-size: .9rem;
     margin-right: 1.3rem;
     text-decoration: none;
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: #d141ad;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #d141ad;
+    border-bottom: 1px solid #d141ad;
+}
+
+.line {
+    margin-top: 10px;
 }

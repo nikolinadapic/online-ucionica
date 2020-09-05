@@ -21,6 +21,7 @@ const MyHeader = () => {
                     {data.site.siteMetadata.title}
                 </Link>
             </h1>
+            <hr />
             <nav>
                 <ul className={headerStyles.navList}>
                     <li>
@@ -40,6 +41,7 @@ const MyHeader = () => {
                     </li>
                 </ul>
             </nav>
+            <hr className={headerStyles.line} />
         </header>
     )
 }
