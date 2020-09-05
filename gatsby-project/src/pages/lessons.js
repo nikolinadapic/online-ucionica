@@ -11,7 +11,7 @@ const Lessons = () => {
             <h1>Lessons</h1>
             <div className={lessonsStyles.container}>
                 <div className={lessonsStyles.content}>
-                    <h4 className={lessonsStyles.text}>Basic Math</h4>
+                    <h4 className={lessonsStyles.text}>Basic Mathematics</h4>
                 </div>
                 <div className={lessonsStyles.content}>
                     <h4 className={lessonsStyles.text}>Algebra</h4>
@@ -29,7 +29,7 @@ const Lessons = () => {
                     <h4 className={lessonsStyles.text}>Topology</h4>
                 </div>
                 <div className={lessonsStyles.content}>
-                    <h4 className={lessonsStyles.text}>Discrete Math</h4>
+                    <h4 className={lessonsStyles.text}>Combinatorics</h4>
                 </div>
                 <div className={lessonsStyles.content}>
                     <h4 className={lessonsStyles.text}>Logic</h4>
@@ -41,7 +41,7 @@ const Lessons = () => {
                     <h4 className={lessonsStyles.text}>Equations</h4>
                 </div>
                 <div className={lessonsStyles.content}>
-                    <h4 className={lessonsStyles.text}>Math Objects</h4>
+                    <h4 className={lessonsStyles.text}>Mathematical Objects</h4>
                 </div>
                 <div className={lessonsStyles.content}>
                     <h4 className={lessonsStyles.text}>Signal Processing</h4>
@@ -59,7 +59,7 @@ const Lessons = () => {
                     <h4 className={lessonsStyles.text}>Operations Research</h4>
                 </div>
                 <div className={lessonsStyles.content}>
-                    <h4 className={lessonsStyles.text}>Differential</h4>
+                    <h4 className={lessonsStyles.text}>Differentials</h4>
                 </div>
                 <div className={lessonsStyles.content}>
                     <h4 className={lessonsStyles.text}>Integrals</h4>
@@ -71,7 +71,7 @@ const Lessons = () => {
                     <h4 className={lessonsStyles.text}>Dynamical Systems</h4>
                 </div>
                 <div className={lessonsStyles.content}>
-                    <h4 className={lessonsStyles.text}>Computing Theory</h4>
+                    <h4 className={lessonsStyles.text}>Computation Theory</h4>
                 </div>
                 
             </div>
