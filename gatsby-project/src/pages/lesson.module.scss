@@ -6,7 +6,7 @@
 .centered {
   position: absolute;
   top: 70%;
-  left: 42%;
+  left: 40%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
   font-weight: bold;
@@ -18,4 +18,15 @@
 
 .text {
     margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }

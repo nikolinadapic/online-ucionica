@@ -9,7 +9,7 @@ const Lesson = () => {
     return (
         <MyLayout>
             <Head title="Lesson" />
-            <div className={lessonStyles.image}>
+            <div className={lessonStyles.image} className={lessonStyles.container}>
                 <LessonImage className={lessonStyles.image} />
                 <div className={lessonStyles.centered}>Here is your math lesson</div>
             </div>
