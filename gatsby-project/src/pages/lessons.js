@@ -10,7 +10,12 @@ const Lessons = () => {
         <MyLayout>
             <Head title="Lessons" />
             <h1>Lessons</h1>
+            <div className={lessonsStyles.searchContainer}>
+                <input className={lessonsStyles.search} type="text" placeholder="Search lessons..."></input>
+                <a className={lessonsStyles.searchButton} href="#jump">Search</a>
+            </div>
             <div className={lessonsStyles.container}>
+                <a id="jump"></a>
                 <div className={lessonsStyles.content}>
                     <Link to="/lesson"><h4 className={lessonsStyles.text}>Basic Mathematics</h4></Link>
                 </div>
@@ -74,7 +79,6 @@ const Lessons = () => {
                 <div className={lessonsStyles.content}>
                     <Link to="/lesson"><h4 className={lessonsStyles.text}>Computation Theory</h4></Link>
                 </div>
-                
             </div>
         </MyLayout>
     )

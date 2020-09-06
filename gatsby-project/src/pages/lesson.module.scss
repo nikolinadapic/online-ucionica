@@ -1,21 +1,21 @@
 .container {
-    position: relative;
-    text-align: center;
-  }
+  position: relative;
+  text-align: center;
+}
 
 .centered {
-    position: absolute;
-    top: 70%;
-    left: 42%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    font-weight: bold;
-  }
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-  .image {
-    width: 100%;
-  }
+.image {
+  width: 100%;
+}
 
-  .text {
-      margin-top: 50px;
-  }
+.text {
+    margin-top: 50px;
+}
